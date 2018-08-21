@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Gym-Personal Training</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width-device-width",initial-scale=1>
+		<link rel="stylesheet" type="text/css" href="the_gym.css"/>
+		
+	</head>
+
+	<body>
+		<header>
+			<p id="logo">LATIS</p>
+			<nav>
+				<li> <a href="#">Home</a></li>
+				<li> <a href="#">Trainers</a></li>
+				<li> <a href="#">Plans</a></li>
+				<li> <a href="#">Pricing</a></li>
+				<li> <a href="#">Facility</a></li>
+				<li> <a href="#">Contact</a></li>
+			</nav>
+		</header>
+
+		<ul class="slides">
+			  <img class="mySlides" src="Image\IMAG0736.jpg"
+			  style="width:1550px">
+			  <img class="mySlides" src="Image\IMAG0746.jpg"
+			  style="width:1550px">
+			  <img class="mySlides" src="Image\IMAG0739.jpg"
+			  style="width:1550px">
+			  <img class="mySlides" src="Image\IMAG0743_BURST001.jpg"
+			  style="width:1550px">
+			  <img class="mySlides" src="Image\IMAG0747.jpg"
+			  style="width:1550px">
+		</ul>
+
+		<script>
+			// Automatic Slideshow - change image every 3 seconds
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			    var i;
+			    var x = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < x.length; i++) {
+			       x[i].style.display = "none";
+			    }
+			    myIndex++;
+			    if (myIndex > x.length) {myIndex = 1}
+			    x[myIndex-1].style.display = "block";
+			    setTimeout(carousel, 3000);
+		}
+</script>
+		
+		<section>
+			<img src="Image\login_logo.PNG">
+			<h1>Best Trainers Around</h1>
+			<p>Here the trainers we provide the are the best around other gyms.You definetly be benifeted by them .</p>
+		</section>
+		<section>
+			<img src="Image\login_logo.PNG">
+			<h1>Local & Convenient</h1>
+			<p>Here the trainers we provide the are the best around other gyms.You definetly be benifeted by them .</p>
+		</section>
+		<section>
+			<img src="Image\login_logo.PNG">
+			<h1>Check us Out</h1>
+			<p>Here the trainers we provide the are the best around other gyms.You definetly be benifeted by them .</p>
+		</section>
+		
+		<article>
+			<img src="Image\Buet.JPG"/>
+		</article>
+		<aside>
+			<h2>Our Group Class Schedule</h2>
+			<ul class="gym_time">
+				<li><h3>Studio Cycling at 8:00 am --- 60 minutes</h3></li>
+				<li><h3>Abs Sculpting at 12:00 pm --- 30 minutes</h3></li>
+				<li><h3>Power Yoga at 10:00 am --- 60 minutes</h3></li>
+				<li><h3>Boot Camp at 2:00 pm --- 30 minutes</h3></li>
+				<li><h3>Butt Sculpting at 4:00 pm --- 60 minutes</h3></li>
+			</ul>
+		</aside>
+		<section>
+			<h1>Ladies Section</h1>
+			<img src="Image\student_login.jpg"/>
+			<p>Here the trainers we provide the are the best around other gyms.You definetly be benifeted by them .</p>
+		</section>
+		<section>
+			<h1>The Gym Floor</h1>
+			<img src="Image\student_login.jpg"/>
+			<p>Here the trainers we provide the are the best around other gyms.You definetly be benifeted by them .</p>
+		</section>
+		<section>
+			<h1>Free Weights</h1>
+			<img src="Image\student_login.jpg"/>
+			<p>Here the trainers we provide the are the best around other gyms.You definetly be benifeted by them .</p>
+		</section>
+		<footer>
+			<section>
+				<h1>The Gym</h1>
+				<h3>+8801764968900</h3>
+				1700,Elephent Road<br>
+				Motijheel 1100,Dhaka<br>
+			</section>
+			<section>
+				<ul class="social_links">
+					<li><img src="Image\login_logo.PNG"></li>
+					<li><img src="Image\login_logo.PNG"></li>
+					<li><img src="Image\login_logo.PNG"></li>
+					<li><img src="Image\login_logo.PNG"></li>
+				</ul>
+			</section>
+			<section>
+				<img src="Image\student_login.jpg"/>
+			</section>
+			<p id="copyright">&copy Copyright The Gym-2017</p>
+		</footer>
+
+	</body>
+</html>
